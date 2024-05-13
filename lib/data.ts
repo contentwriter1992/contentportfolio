@@ -4,7 +4,7 @@ import { FaBookOpen } from "react-icons/fa";
 import { FaUniversity } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaHotel } from "react-icons/fa";
-import dalmaSjen from "@/public/DalmaSjen.jpg";
+import dalmaSjen from "@/public/Dalmasjen.jpg";
 import imker from "@/public/imker.jpg";
 import blijeBoeddha from "@/public/blijeBhoeddha.jpg";
 import pubQuiz from "@/public/pubQuiz_Page_1.jpg";
@@ -88,7 +88,7 @@ export const projectsData = [
     description:
       "Artikel geschreven over een opkomende tattoostudio in Rotterdam Noord. Klik op de afbeeldingen om de artikelen te downloaden.",
     tags: ["cultuur", "wijkkrant", "redactie", "tattoostudio", "ontwerp"],
-    imageUrl: dalmaSjen,
+    imageUrl: dalmasjen,
   },
   {
     title: "Imker Piet",
