@@ -7,12 +7,12 @@ import Project from './project';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Projects() {
-  const { ref } = useSectionInView("Projects", 0.75);
+  const { ref } = useSectionInView("Artikelen", 0.75);
 
   return (
     <section 
     ref={ref} 
-    id="projects" 
+    id="articles" 
     className="scroll-mt-28 mb-28 transition">
         <SectionHeading>Mijn artikelen</SectionHeading>
         <div>

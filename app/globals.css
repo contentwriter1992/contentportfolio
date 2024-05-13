@@ -13,3 +13,8 @@ html.dark {
 .borderBlack {
     @apply border border-black/10;
 }
+
+.mySwiper {
+    cursor: pointer;
+    border-radius: 5px;
+}

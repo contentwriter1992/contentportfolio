@@ -22,6 +22,31 @@ export default function Project({
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
+  // const handleDownload = () => {
+  //   // Construct the full URL to the image based on its relative path within the public folder
+  //   const fullUrl = process.env.PUBLIC_URL + imageUrl;
+  //   // Create an anchor element
+  //   const anchor = document.createElement('a');
+  //   // Set the href attribute to the constructed full URL
+  //   anchor.href = fullUrl;
+    
+  //   // Check if imageUrl is a string before splitting
+  //   if (typeof imageUrl === 'string') {
+  //     // Extract the filename from the URL (assuming the URL ends with the filename)
+  //     const filename = imageUrl.split('/').pop();
+  //     // Set the download attribute to specify the file name
+  //     anchor.download = filename || 'download'; // Use 'download' as fallback filename
+  //   } else {
+  //     // If imageUrl is not a string, set a default download filename
+  //     anchor.download = 'download';
+  //   }
+    
+  //   // Programmatically trigger a click event to initiate the download
+  //   anchor.click();
+  // };
+
+  // console.log(imageUrl)
+
   return (
     <motion.div
       ref={ref}
@@ -29,7 +54,7 @@ export default function Project({
         scale: scaleProgress,
         opacity: opacityProgress,
       }}
-      className="group mb-3 sm:mb-8 last:mb-0"
+      className="group mb-2 sm:mb-8 last:mb-0"
     >
       <section
         className="group 
@@ -51,7 +76,7 @@ export default function Project({
             {tags.map((tag, index) => (
               <li
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
-                key={index}
+                key={index} 
               >
                 {tag}
               </li>
@@ -63,6 +88,7 @@ export default function Project({
           src={imageUrl}
           alt="project I worked on"
           quality={90}
+          style={{ cursor: 'pointer' }} // Change cursor to pointer to indicate clickable
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem]
     rounded-t-lg shadow-2xl 
     transition
@@ -77,7 +103,7 @@ export default function Project({
 
     group-even:right-[initial]
     group-even:-left-40"
-        />
+    />
       </section>
     </motion.div>
   );

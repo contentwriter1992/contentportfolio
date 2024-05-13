@@ -102,7 +102,7 @@ export default function Intro() {
             gap-2 rounded-full outline-none focus:scale-105
             hover:scale-105 hover:bg-white active:scale-105 hover:text-gray-950
              opacity-60 group-hover:translate-y-1 transition cursor-pointer borderBlack dark:bg-white/10"
-              href="/JamesCV2024.pdf"
+              href="/CV2024.pdf"
               download 
               >
               Download CV <HiDownload />

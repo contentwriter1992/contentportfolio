@@ -1,11 +1,13 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaBookOpen } from "react-icons/fa";
 import { FaUniversity } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa";
-import dadJokes from "@/public/landingPage.gif";
-import randomChoice from "@/public/randomChoice.png";
-import roboFriends from "@/public/roboFriends.png";
+import { FaHotel } from "react-icons/fa";
+import dalmaSjen from "@/public/Dalmasjen.jpg";
+import imker from "@/public/imker.jpg";
+import blijeBoeddha from "@/public/blijeBhoeddha.jpg";
+import pubQuiz from "@/public/pubQuiz_Page_1.jpg";
 
 export const links = [
   {
@@ -26,7 +28,7 @@ export const links = [
   },
   {
     name: "Fotografie",
-    hash: "photo",
+    hash: "#photo",
   },
   {
     name: "Experience",
@@ -58,17 +60,25 @@ export const experiencesData = [
     title: "Online marketeer",
     location: "Rotterdam, The Netherlands",
     description:
-      "I worked as a growth hacker at Vakanties.nl and after that I went to Amazon RBS (Retail business services) where I was employed for two years and focused mostly on cross channel communication between vendors and several marketplaces, before I made a switch to online marketing again. At Holland Watch Group I worked as a content marketeer in 2021 and 2022",
+      "Ik heb gewerkt als growth hacker bij Vakanties.nl, en daarna ben ik naar Amazon RBS (Retail Business Services) gegaan, waar ik twee jaar lang werkzaam was. Daar richtte ik me voornamelijk op de cross-channel communicatie tussen leveranciers en diverse marketplaces, voordat ik weer overstapte naar online marketing. Bij Holland Watch Group werkte ik in 2021 en 2022 als content marketeer. Daar was ik verantwoordelijk voor alle content op alle kanalen, zowel geschreven als visueel.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2022",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Redacteur",
     location: "Rotterdam, The Netherlands",
     description:
-      "I'm now a full-stack developer self study student. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+      "Ik schrijf artikelen voor de wijkkrant Bergpolder, Blijdorp en Liskwartier. Mijn sterktes liggen onder meer bij het interviewen van één of meerdere personen, maar ook het vastleggen van personen en situaties om zo de juiste sfeer over te dragen. Ik gebruik hiervoor fotografie als medium.",
+    icon: React.createElement(FaBookOpen),
+    date: "2023 - heden",
+  },
+  {
+    title: "Front Office",
+    location: "Westcord Hotel New York, Rotterdam",
+    description:
+      "Ik werk sinds januari 2023 bij Hotel New York in de receptie. Hier heb ik mijn communicatieskills aangescherpt en help ik zowel hotel als restaurantgasten bij het creëren van een zorgeloos verblijf.",
+    icon: React.createElement(FaHotel ),
+    date: "2023 - heden",
   },
 ] as const;
 
@@ -76,38 +86,46 @@ export const projectsData = [
   {
     title: "Dalmasjen",
     description:
-      "Artikel geschreven over een opkomende tattoostudio in Rotterdam Noord",
-    tags: ["cultuur", "wijkkrant", "redacteur", "tattoostudio", "ontwerp"],
-    imageUrl: dadJokes,
+      "Artikel geschreven over een opkomende tattoostudio in Rotterdam Noord. Klik op de afbeeldingen om de artikelen te downloaden.",
+    tags: ["cultuur", "wijkkrant", "redactie", "tattoostudio", "ontwerp"],
+    imageUrl: dalmaSjen,
   },
   {
-    title: "Random Choice",
+    title: "Imker Piet",
     description:
-      "A small, but neat javascript app that lets the user input options. When enter is pressed a random option is selected",
-    tags: ["Javascript", "HTML", "CSS", "Vanilla JS", "DOM manipulation"],
-    imageUrl: randomChoice,
+      "In mei 2023 bezocht ik Piet en zijn bijen in Bergpolder. Het interview leidde tot een boeiend artikel met bijpassende foto's.",
+    tags: ["natuur", "wijkkrant", "portret", "content", "redactie"],
+    imageUrl: imker,
   },
   {
-    title: "Robot friends",
+    title: "Yogastudio de Blije Boeddha",
     description:
-      "My first React project. A simple database with search functionality",
-    tags: ["React", "Javascript", "HTML", "CSS", "Typescript"],
-    imageUrl: roboFriends,
+      "Esther runt een fijne yogastudio waar iedereen terecht kan",
+    tags: ["ondernemers", "wijkkrant", "redactie", "portret", "content"],
+    imageUrl: blijeBoeddha,
+  },
+  {
+    title: "Pubquizzen in Rotterdam Noord",
+    description:
+      "Bij café de Komedie en café Bergpolder kun je terecht voor uitdagende pubquizzen",
+    tags: ["horeca", "wijkkrant", "redactie", "pubquiz", "trivia"],
+    imageUrl: pubQuiz,
   },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
+  "jQuery",
+  "SEO",
+  "Ads",
+  "Hootsuite",
+  "Google Analytics",
+  "Google Tag Manager",
+  "ChatGPT",
+  "Stable Diffusion",
   "Redux",
   "GraphQL",
   "Apollo",

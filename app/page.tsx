@@ -1,11 +1,11 @@
 import Intro from '@/components/intro';
 import About from '@/components/about';
-import Projects from '@/components/projects';
-import SectionDivider from '@/components/sectionDivider';
+import Artikelen from '@/components/projects';
 import SectionDivider2 from '@/components/sectionDivider2'
 import Skills from '@/components/skills';
 import Experience from '@/components/experience';
 import Contact from '@/components/contact';
+import Photo from '@/components/photo';
 
 export default function Home() {
   return (
@@ -13,8 +13,10 @@ export default function Home() {
     <Intro />
     <About />
     <SectionDivider2 />
-    <Projects />
+    <Artikelen />
     <Skills />
+    <SectionDivider2 />
+    <Photo />
     <Experience />
     <Contact />
   </main>
