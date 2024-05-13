@@ -4,7 +4,7 @@ import { FaBookOpen } from "react-icons/fa";
 import { FaUniversity } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaHotel } from "react-icons/fa";
-import dalmaSjen from "@/public/Dalmasjen.jpg";
+import dalmaSjen from "@/public/dalmasjen.jpg";
 import imker from "@/public/imker.jpg";
 import blijeBoeddha from "@/public/blijeBhoeddha.jpg";
 import pubQuiz from "@/public/pubQuiz_Page_1.jpg";
