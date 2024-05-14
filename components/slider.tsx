@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-export const Slider = ({ slides }) => {
+export const Slider = ({ slides, ...props}) => {
     return ( 
     <Swiper
         spaceBetween={10}
