@@ -89,6 +89,7 @@ export const projectsData = [
       "Artikel geschreven over een opkomende tattoostudio in Rotterdam Noord. Klik op de afbeeldingen om de artikelen te downloaden.",
     tags: ["cultuur", "wijkkrant", "redactie", "tattoostudio", "ontwerp"],
     imageUrl: dalmasjen,
+    imageLink: "https://drive.google.com/file/d/1000Kc9GQanF6QpQT14GTdp0EdOjHDi1B/view?usp=sharing",
   },
   {
     title: "Imker Piet",
@@ -96,6 +97,7 @@ export const projectsData = [
       "In mei 2023 bezocht ik Piet en zijn bijen in Bergpolder. Het interview leidde tot een boeiend artikel met bijpassende foto's.",
     tags: ["natuur", "wijkkrant", "portret", "content", "redactie"],
     imageUrl: imker,
+    imageLink: "https://drive.google.com/file/d/1XUQ8ipCi24pBnsyxGjZpqjfWaI-XKs9-/view?usp=sharing",
   },
   {
     title: "Yogastudio de Blije Boeddha",
@@ -103,6 +105,7 @@ export const projectsData = [
       "Esther runt een fijne yogastudio waar iedereen terecht kan",
     tags: ["ondernemers", "wijkkrant", "redactie", "portret", "content"],
     imageUrl: blijeBoeddha,
+    imageLink: "https://drive.google.com/file/d/1dE8VwTf-WxTHCR0qk8rKB4hl-lA1cJ6F/view?usp=sharing",
   },
   {
     title: "Pubquizzen in Rotterdam Noord",
@@ -110,6 +113,7 @@ export const projectsData = [
       "Bij café de Komedie en café Bergpolder kun je terecht voor uitdagende pubquizzen",
     tags: ["horeca", "wijkkrant", "redactie", "pubquiz", "trivia"],
     imageUrl: pubQuiz,
+    imageLink: "https://drive.google.com/file/d/1bEVM2qH_MaMLFV70rd7Yb586LG5-wRwE/view?usp=sharing",
   },
 ] as const;
 

@@ -21,12 +21,29 @@ export const Slider: React.FC<SliderProps> = ({ slides }) => {
     <Swiper
         spaceBetween={10}
         slidesPerView={1}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
-        // pagination={{ 'progressbar', 
-        // }}
-        modules ={[EffectFade]} effect="fade"
+        onSwiper={(Swiper) => console.log(Swiper)}
+        // Enable fade effect
+        modules={[EffectFade]} 
+        effect="fade"
         navigation={true}
+        pagination={{ clickable: true }}
+        breakpoints={{
+          // Breakpoint for small devices
+          640: {
+            // Set space between slides to 5
+            spaceBetween: 5,
+          },
+          // Breakpoint for medium devices
+          768: {
+            // Set space between slides to 10
+            spaceBetween: 10,
+          },
+          // Breakpoint for large devices
+          1024: {
+            // Set space between slides to 15
+            spaceBetween: 15,
+          },
+        }}
       >
         {slides.map((slide) => (
         <SwiperSlide key={slide.image}>

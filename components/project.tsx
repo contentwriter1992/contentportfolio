@@ -13,6 +13,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  imageLink,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -22,30 +23,6 @@ export default function Project({
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
-  // const handleDownload = () => {
-  //   // Construct the full URL to the image based on its relative path within the public folder
-  //   const fullUrl = process.env.PUBLIC_URL + imageUrl;
-  //   // Create an anchor element
-  //   const anchor = document.createElement('a');
-  //   // Set the href attribute to the constructed full URL
-  //   anchor.href = fullUrl;
-    
-  //   // Check if imageUrl is a string before splitting
-  //   if (typeof imageUrl === 'string') {
-  //     // Extract the filename from the URL (assuming the URL ends with the filename)
-  //     const filename = imageUrl.split('/').pop();
-  //     // Set the download attribute to specify the file name
-  //     anchor.download = filename || 'download'; // Use 'download' as fallback filename
-  //   } else {
-  //     // If imageUrl is not a string, set a default download filename
-  //     anchor.download = 'download';
-  //   }
-    
-  //   // Programmatically trigger a click event to initiate the download
-  //   anchor.click();
-  // };
-
-  // console.log(imageUrl)
 
   return (
     <motion.div
@@ -64,11 +41,15 @@ export default function Project({
      relative wm:h-[20rem] hover:bg-gray-200 border
       border-black/20 transition group-even:pl-7 dark:bg-black"
       >
-        <div
+        <motion.div
           className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10
-        sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem] dark:bg-black/10"
+sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem] dark:bg-black/10"
         >
-          <h3 className="text-2xl font-semibold dark:text-gray-100">{title}</h3>
+          <h3 
+          className="text-2xl font-semibold dark:text-gray-100 cursor-pointer"
+          onClick={() => window.open(imageLink, '_blank')}
+          onTouchStart={() => window.open(imageLink, '_blank')}
+          >{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 pb-6 dark:text-gray-40 dark:text-white/90">
             {description}
           </p>
@@ -76,20 +57,23 @@ export default function Project({
             {tags.map((tag, index) => (
               <li
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
-                key={index} 
+                key={index}
               >
                 {tag}
               </li>
             ))}
           </ul>
-        </div>
+        </motion.div>
 
         <Image
           src={imageUrl}
           alt="project I worked on"
           quality={90}
-          style={{ cursor: 'pointer' }} // Change cursor to pointer to indicate clickable
+          onClick={() => window.open(imageLink, '_blank')}
+          onTouchStart={() => window.open(imageLink, '_blank')}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem]
+          
+        
     rounded-t-lg shadow-2xl 
     transition
     group-hover:scale-[1.04]
@@ -102,8 +86,8 @@ export default function Project({
     group-even:group-hover:rotate-2
 
     group-even:right-[initial]
-    group-even:-left-40"
-    />
+    group-even:-left-40 cursor-pointer"
+        />
       </section>
     </motion.div>
   );
