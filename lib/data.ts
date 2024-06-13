@@ -9,7 +9,7 @@ import imker from "@/public/imker.jpg";
 import blijeBoeddha from "@/public/blijeBhoeddha.jpg";
 import pubQuiz from "@/public/pubQuiz_Page_1.jpg";
 import pizza from "@/public/pizza.jpg";
-import ismail from "@/public/ismail.jpg";
+import Ismail from "@/public/Ismail.jpg";
 
 export const links = [
   {
@@ -130,7 +130,7 @@ export const projectsData = [
     description:
       "Ismail is in 2015 gevlucht vanuit Syrisch Koerdistan en heeft een boek geschreven over zijn tocht via Turkije, door Europa.",
     tags: ["autobiografie", "portret", "redactie", "politiek", "Syrisch-Koerdistan"],
-    imageUrl: ismail,
+    imageUrl: Ismail,
     imageLink: "https://drive.google.com/file/d/1bEVM2qH_MaMLFV70rd7Yb586LG5-wRwE/view?usp=sharing",
   },
 ] as const;
