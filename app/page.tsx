@@ -35,4 +35,4 @@ function viewPort({ Component, pageProps }) {
   );
 }
 
-export default viewPort;
+export viewPort;
