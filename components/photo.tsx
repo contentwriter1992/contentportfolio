@@ -27,9 +27,10 @@ export default function Photo() {
         <SectionHeading>Een greep uit mijn foto's 📷</SectionHeading>
       </div>
       
-  
+  <div className="w-full overflow-hidden">
    <Slider 
    slides={slides}/>
+    </div>
 
     </motion.section>
   );
