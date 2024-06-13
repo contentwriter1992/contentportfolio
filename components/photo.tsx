@@ -6,6 +6,7 @@ import SectionHeading from "./section-heading";
 import { useSectionInView } from '@/lib/hooks';
 import { Slider } from './slider';
 import slides from '@/lib/slides.json';
+import viewPort from '@../app/page/viewPort'; 
 
 export default function Photo() {
   const { ref } = useSectionInView("Fotografie", 1);
