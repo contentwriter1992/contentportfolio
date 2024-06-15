@@ -8,6 +8,8 @@ import dalmasjen from "@/public/dalmasjen.jpg";
 import imker from "@/public/imker.jpg";
 import blijeBoeddha from "@/public/blijeBhoeddha.jpg";
 import pubQuiz from "@/public/pubQuiz_Page_1.jpg";
+import pizza from "@/public/pizza.jpg";
+import Ismail from "@/public/Ismail.jpg";
 
 export const links = [
   {
@@ -113,6 +115,22 @@ export const projectsData = [
       "Bij café de Komedie en café Bergpolder kun je terecht voor uitdagende pubquizzen",
     tags: ["horeca", "wijkkrant", "redactie", "pubquiz", "trivia"],
     imageUrl: pubQuiz,
+    imageLink: "https://drive.google.com/file/d/1bEVM2qH_MaMLFV70rd7Yb586LG5-wRwE/view?usp=sharing",
+  },
+  {
+    title: "Pizzabakkert",
+    description:
+      "Bij de Pizzabakkert in Blijdorp kun je terecht voor heerlijke afhaalpizza's",
+    tags: ["horeca", "wijkkrant", "redactie", "pizza", "Blijdorp"],
+    imageUrl: pizza,
+    imageLink: "https://drive.google.com/file/d/1bEVM2qH_MaMLFV70rd7Yb586LG5-wRwE/view?usp=sharing",
+  },
+   {
+    title: "Ismail",
+    description:
+      "Ismail is in 2015 gevlucht vanuit Syrisch Koerdistan en heeft een boek geschreven over zijn tocht via Turkije, door Europa.",
+    tags: ["autobiografie", "portret", "redactie", "politiek", "Syrisch-Koerdistan"],
+    imageUrl: Ismail,
     imageLink: "https://drive.google.com/file/d/1bEVM2qH_MaMLFV70rd7Yb586LG5-wRwE/view?usp=sharing",
   },
 ] as const;
