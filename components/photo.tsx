@@ -13,7 +13,7 @@ export default function Photo() {
   return (
     <motion.section
       // className="sm:m-[8rem] mb-16 max-w-[45rem] text-center leading-6 sm:mb-40 scroll-mt-28"
-      className="max-w-screen-md mx-auto px-4 py-8 sm:py-12"
+      className="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-12 w-full flex-1"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -22,7 +22,7 @@ export default function Photo() {
     >
 
 
-<div className="text-center mb-8">
+<div className="text-center mb-6">
         <SectionHeading>Een greep uit mijn foto's 📷</SectionHeading>
       </div>
       

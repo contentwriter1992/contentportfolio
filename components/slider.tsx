@@ -1,7 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFade } from "swiper/modules";
+import { EffectFade, Pagination } from "swiper/modules";
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -23,35 +23,24 @@ export const Slider: React.FC<SliderProps> = ({ slides }) => {
         slidesPerView={1}
         onSwiper={(Swiper) => console.log(Swiper)}
         // Enable fade effect
-        modules={[EffectFade]} 
-        effect="fade"
+        modules={[EffectFade, Pagination]}
+        effect="coverflow"
         navigation={true}
+        // crossfade={true}
         pagination={{ clickable: true }}
         breakpoints={{
           // Breakpoint for small devices
-          640: {
-            // Set space between slides to 5
-            spaceBetween: 5,
-          },
-          // Breakpoint for medium devices
-          768: {
-            // Set space between slides to 10
-            spaceBetween: 10,
-          },
-          // Breakpoint for large devices
-          1024: {
-            // Set space between slides to 15
-            spaceBetween: 15,
-          },
+          // 640: { spaceBetween: 5 },
+          // 768: { spaceBetween: 10 },
+          // 1024: { spaceBetween: 15 },
         }}
+        // className="w-full h-auto"
       >
-        {slides.map((slide) => (
-        <SwiperSlide key={slide.image}>
-        <img src={slide.image} alt={slide.title} 
-    />
-       </SwiperSlide>
+           {slides.map((slide) => (
+          <SwiperSlide key={slide.image}>
+            <img src={slide.image} alt={slide.title} />
+          </SwiperSlide>
         ))}
-        
       </Swiper>
-      )
+    )
 }

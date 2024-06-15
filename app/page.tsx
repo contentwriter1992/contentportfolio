@@ -9,7 +9,8 @@ import Photo from '@/components/photo';
 
 export default function Home() {
   return (
-  <main className="flex flex-col items-center px-4">
+  // <main className="flex flex-col items-center px-4">
+    <main className="min-h-screen flex flex-col items-center">
     <Intro />
     <About />
     <SectionDivider2 />

@@ -1,22 +1,37 @@
 [
-    {
-      "image": "https://images.unsplash.com/photo-1696871843440-e8d1ecfc0e13?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "title": "The Lone Traveler",
-       "interval": 1500
-    },
-    {
-      "image": "https://images.unsplash.com/photo-1665684951797-2f741a62c75d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "title": "Man reading French literature",
-      "interval": 2500
-    },
-    {
+  {
+    "image": "https://images.unsplash.com/photo-1696871843440-e8d1ecfc0e13?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "The Lone Traveler",
+    "interval": 1500
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1665684951797-2f741a62c75d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Man reading French literature",
+    "interval": 2500
+  },
+  {
     "image": "https://images.unsplash.com/photo-1696871707106-1df69e91e096?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "title": "People enjoying the sunset",
-      "interval": 3500
-    },
-    {
-      "image": "https://images.unsplash.com/photo-1672406601725-4685c734dc59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "Cubic Houses",
-        "interval": 4500
-    }
-  ]
+    "title": "People enjoying the sunset",
+    "interval": 3500
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1672406601725-4685c734dc59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Cubic Houses",
+    "interval": 4500
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1672406601385-82f162711586?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Man working",
+    "interval": 5500
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1633090740557-46dd32a04bc8?q=80&w=2113&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Father holding baby",
+    "interval": 6500
+  },
+  {
+    "image": "https://i.imgur.com/j7iXFUR.jpeg",
+    "title": "Interior of café",
+    "interval": 7500
+  }
+]
