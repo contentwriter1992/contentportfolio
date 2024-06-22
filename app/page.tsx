@@ -6,7 +6,7 @@ import Skills from '@/components/skills';
 import Experience from '@/components/experience';
 import Contact from '@/components/contact';
 import Photo from '@/components/photo';
-import Head from 'next/head';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   return (
@@ -21,6 +21,7 @@ export default function Home() {
     <Photo />
     <Experience />
     <Contact />
+    <Analytics />
   </main>
   );
 }
