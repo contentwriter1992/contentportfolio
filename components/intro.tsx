@@ -66,7 +66,7 @@ export default function Intro() {
         >
           <span className="font-bold">Hallo, ik ben James.</span> een{" "}
           <span className="font-bold">online marketeer</span> met meerdere jaren ervaring{" "}
-          <span className="font-bold">in verschillende vakgebieden,</span> waaronder educatie en marketing. <span className="italic">Ervaring opgedaan bij </span>diverse bedrijven,{" "}
+          <span className="font-bold">in verschillende vakgebieden,</span> waaronder educatie, retail, horeca en de reisbranche. <span className="italic">Ervaring opgedaan bij </span>diverse bedrijven,{" "}
           <span className="underline"> zoals Amazon, Sunweb en Hotel New York</span>.
         </motion.h1>
 

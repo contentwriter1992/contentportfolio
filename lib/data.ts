@@ -123,7 +123,7 @@ export const projectsData = [
       "Bij de Pizzabakkert in Blijdorp kun je terecht voor heerlijke afhaalpizza's",
     tags: ["horeca", "wijkkrant", "redactie", "pizza", "Blijdorp"],
     imageUrl: pizza,
-    imageLink: "https://drive.google.com/file/d/1bEVM2qH_MaMLFV70rd7Yb586LG5-wRwE/view?usp=sharing",
+    imageLink: "https://drive.google.com/file/d/12aiEFKs5kf0o9_GQ_UGmuAINYkcV4SDt/view?usp=sharing",
   },
    {
     title: "Ismail",
@@ -131,7 +131,7 @@ export const projectsData = [
       "Ismail is in 2015 gevlucht vanuit Syrisch Koerdistan en heeft een boek geschreven over zijn tocht via Turkije, door Europa.",
     tags: ["autobiografie", "portret", "redactie", "politiek", "Syrisch-Koerdistan"],
     imageUrl: Ismail,
-    imageLink: "https://drive.google.com/file/d/1bEVM2qH_MaMLFV70rd7Yb586LG5-wRwE/view?usp=sharing",
+    imageLink: "https://drive.google.com/file/d/1rZBdOvYECDk7NXcB5uYZcEFMKiUgqEgk/view?usp=sharing",
   },
 ] as const;
 
