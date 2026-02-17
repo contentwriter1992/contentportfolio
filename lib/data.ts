@@ -80,8 +80,14 @@ export const experiencesData = [
     description:
       "Ik werk sinds januari 2023 bij Hotel New York in de receptie. Hier heb ik mijn communicatieskills aangescherpt en help ik zowel hotel als restaurantgasten bij het creëren van een zorgeloos verblijf.",
     icon: React.createElement(FaHotel ),
-    date: "2023 - heden",
+    date: "2023 - 2024",
   },
+  title: "Functioneel Beheerder",
+    location: "Achmea, Tilburg",
+    description:
+      "Ik werk extern via Calco bij Achmea als functioneel beheerder binnen het schade & inkomen domein. Hier houd ik mij o.a. bezig het incidentmanagement, data analyse en meehelpen bij de migratie van SAP BW naar MS Azure.",
+    icon: React.createElement(FaDatabase ),
+    date: "2025 - heden",
 ] as const;
 
 export const projectsData = [
