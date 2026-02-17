@@ -82,6 +82,7 @@ export const experiencesData = [
     icon: React.createElement(FaHotel ),
     date: "2023 - 2024",
   },
+  {
   title: "Functioneel Beheerder",
     location: "Achmea, Tilburg",
     description:
